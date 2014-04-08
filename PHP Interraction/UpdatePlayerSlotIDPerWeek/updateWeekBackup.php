@@ -6,7 +6,7 @@ include "dbconnect.php";
 
 <center>
 <h2>Update Player Pool Week</h2>
-<form action="updateWeek.php" method="GET">
+<form action="updateWeek.php" method="POST">
 <select  name="week">
 <option value="01">1</option>
 <option value="02">2</option>
@@ -30,7 +30,7 @@ include "dbconnect.php";
 
 
 <?
-if(isset($_GET['week']) || $argv[1])
+if(isset($_POST['query']) || $argv[1])
 {
 	if($argv[1])
 	{
@@ -38,7 +38,7 @@ if(isset($_GET['week']) || $argv[1])
 	}
 	
 	$result = pg_prepare($connection, "temptable", 'create temp table temp1 as SELECT g."gameKey", g."gameID", se."NFLPlayerID", se."CurrentTeam", se."FantasyPosition", se."FirstName", se."LastName" FROM gamesofweeks as g, seasonplayerdata as se WHERE (g."homeTeam" = se."CurrentTeam" OR g."awayTeam" = se."CurrentTeam") AND g."gameID" LIKE $1');
-	$result = pg_execute($connection, "temptable", array($_GET['week'].'%'));
+	$result = pg_execute($connection, "temptable", array($_POST['week'].'%'));
 	if(!$result)
 	{
 		echo "No temp table<br>";
@@ -52,7 +52,7 @@ if(isset($_GET['week']) || $argv[1])
 	}
 	$zeros = '0000000';
 	$result = pg_prepare($connection, "update2", 'update weekplayerdata set "SlotID" = '.$zeros.' WHERE "SlotID" NOT LIKE $1');
-	$result = pg_execute($connection, "update2", array($_GET['week'].'%'));
+	$result = pg_execute($connection, "update2", array($_POST['week'].'%'));
 	if(!$result)
 	{
 		echo "Update to players that are not playing did not work<br>";
