@@ -9,13 +9,26 @@ if(!$result)
 	echo "No update<br>";
 }
 
+$presult = pg_prepare($connection, "getweek", 'SELECT * FROM weekNumber;');
+$presult = pg_execute($connection, "getweek", array());
+if (!$presult) {
+  echo "An error occurred.\n";
+  exit;
+}
+$row = pg_fetch_assoc($presult);
 
-
+echo $row['weekNum'];
+if($row['weekNum']<10)
+{
+	$row['weekNum'] = '0'.$row['weekNum'];	
+}
+echo $row['weekNum'];
+//echo "hi";
 $curl = curl_init();
 // Set some options - we are passing in a useragent too here
 	curl_setopt_array($curl, array(
     		CURLOPT_RETURNTRANSFER => 1,
-   		 CURLOPT_URL => 'http://babbage.cs.missouri.edu/~cssgf3/capstone/changevalues/updateWeek.php?week='.$argv[1],
+   		 CURLOPT_URL => 'http://babbage.cs.missouri.edu/~cssgf3/capstone/changevalues/updateWeek.php?week='.$row['weekNum'],
    		 CURLOPT_USERAGENT => 'Simulating Player Game'
 		));
 	// Send the request & save response to $resp
