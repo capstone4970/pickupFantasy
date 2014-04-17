@@ -1,0 +1,3 @@
+update seasonplayerdata set "CurrentAuctionValue" = "InitialAuctionValue";
+update weekplayerdata set "CurrentAuctionValue" = seasonplayerdata."CurrentAuctionValue" FROM seasonplayerdata Where weekplayerdata.id=seasonplayerdata.id;
+update weekplayerdata set "Passyds" = 0, "Rushyds" = 0, "Rcvyds" = 0, "Fumbles" = 0, "TDPass" = 0, "TwoPointPass" = 0, "TwoPointRush" = 0, "TDRush" = 0, "TDRcv" = 0, "TwoPointRcv" = 0, "ExtraPoint" = 0, "FieldGoal" = 0, "FantasyPoints" = 0;
