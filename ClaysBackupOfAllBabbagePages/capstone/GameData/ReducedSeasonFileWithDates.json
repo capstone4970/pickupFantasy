@@ -1,0 +1,1796 @@
+
+  
+[
+{
+"GameKey":"201310104", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"NE", 
+"Week":1 
+},
+{
+"GameKey":"201310105", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"SEA", 
+"Week":1 
+},
+{
+"GameKey":"201310106", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"CIN", 
+"Week":1 
+},
+{
+"GameKey":"201310108", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"MIA", 
+"Week":1 
+},
+{
+"GameKey":"201310109", 
+"Date":"09-09-2013 12:30:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"NYG", 
+"Week":1 
+},
+{
+"GameKey":"201310110", 
+"Date":"09-06-2013 12:30:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"BAL", 
+"Week":1 
+},
+{
+"GameKey":"201310111", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"DET", 
+"AwayTeam":"MIN", 
+"Week":1 
+},
+{
+"GameKey":"201310114", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"OAK", 
+"Week":1 
+},
+{
+"GameKey":"201310115", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"KC", 
+"Week":1 
+},
+{
+"GameKey":"201310122", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"NO", 
+"AwayTeam":"ATL", 
+"Week":1 
+},
+{
+"GameKey":"201310124", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"TB", 
+"Week":1 
+},
+{
+"GameKey":"201310128", 
+"Date":"09-08-2013 05:00:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"TEN", 
+"Week":1 
+},
+{
+"GameKey":"201310129", 
+"Date":"09-10-2013 02:15:00",
+"HomeTeam":"SD", 
+"AwayTeam":"HOU", 
+"Week":1 
+},
+{
+"GameKey":"201310131", 
+"Date":"09-08-2013 08:25:00",
+"HomeTeam":"SF", 
+"AwayTeam":"GB", 
+"Week":1 
+},
+{
+"GameKey":"201310132", 
+"Date":"09-08-2013 08:25:00",
+"HomeTeam":"STL", 
+"AwayTeam":"ARI", 
+"Week":1 
+},
+{
+"GameKey":"201310135", 
+"Date":"09-09-2013 10:55:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"PHI", 
+"Week":1 
+},
+{
+"GameKey":"201310201", 
+"Date":"09-15-2013 08:05:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"DET", 
+"Week":2 
+},
+{
+"GameKey":"201310202", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"STL", 
+"Week":2 
+},
+{
+"GameKey":"201310203", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"CLE", 
+"Week":2 
+},
+{
+"GameKey":"201310204", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"CAR", 
+"Week":2 
+},
+{
+"GameKey":"201310206", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"MIN", 
+"Week":2 
+},
+{
+"GameKey":"201310207", 
+"Date":"09-17-2013 12:30:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"PIT", 
+"Week":2 
+},
+{
+"GameKey":"201310212", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"GB", 
+"AwayTeam":"WAS", 
+"Week":2 
+},
+{
+"GameKey":"201310213", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"TEN", 
+"Week":2 
+},
+{
+"GameKey":"201310214", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"MIA", 
+"Week":2 
+},
+{
+"GameKey":"201310216", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"DAL", 
+"Week":2 
+},
+{
+"GameKey":"201310221", 
+"Date":"09-13-2013 12:25:00",
+"HomeTeam":"NE", 
+"AwayTeam":"NYJ", 
+"Week":2 
+},
+{
+"GameKey":"201310223", 
+"Date":"09-15-2013 08:25:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"DEN", 
+"Week":2 
+},
+{
+"GameKey":"201310225", 
+"Date":"09-15-2013 08:25:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"JAX", 
+"Week":2 
+},
+{
+"GameKey":"201310226", 
+"Date":"09-15-2013 05:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"SD", 
+"Week":2 
+},
+{
+"GameKey":"201310230", 
+"Date":"09-16-2013 12:30:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"SF", 
+"Week":2 
+},
+{
+"GameKey":"201310233", 
+"Date":"09-15-2013 08:05:00",
+"HomeTeam":"TB", 
+"AwayTeam":"NO", 
+"Week":2 
+},
+{
+"GameKey":"201310303", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"HOU", 
+"Week":3 
+},
+{
+"GameKey":"201310305", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"NYG", 
+"Week":3 
+},
+{
+"GameKey":"201310307", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"GB", 
+"Week":3 
+},
+{
+"GameKey":"201310309", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"STL", 
+"Week":3 
+},
+{
+"GameKey":"201310310", 
+"Date":"09-24-2013 12:30:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"OAK", 
+"Week":3 
+},
+{
+"GameKey":"201310319", 
+"Date":"09-22-2013 08:05:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"ATL", 
+"Week":3 
+},
+{
+"GameKey":"201310320", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"CLE", 
+"Week":3 
+},
+{
+"GameKey":"201310321", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"NE", 
+"AwayTeam":"TB", 
+"Week":3 
+},
+{
+"GameKey":"201310322", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"NO", 
+"AwayTeam":"ARI", 
+"Week":3 
+},
+{
+"GameKey":"201310324", 
+"Date":"09-22-2013 08:25:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"BUF", 
+"Week":3 
+},
+{
+"GameKey":"201310326", 
+"Date":"09-20-2013 12:25:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"KC", 
+"Week":3 
+},
+{
+"GameKey":"201310328", 
+"Date":"09-23-2013 12:30:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"CHI", 
+"Week":3 
+},
+{
+"GameKey":"201310330", 
+"Date":"09-22-2013 08:25:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"JAX", 
+"Week":3 
+},
+{
+"GameKey":"201310331", 
+"Date":"09-22-2013 08:25:00",
+"HomeTeam":"SF", 
+"AwayTeam":"IND", 
+"Week":3 
+},
+{
+"GameKey":"201310334", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"SD", 
+"Week":3 
+},
+{
+"GameKey":"201310335", 
+"Date":"09-22-2013 05:00:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"DET", 
+"Week":3 
+},
+{
+"GameKey":"201310402", 
+"Date":"09-30-2013 12:30:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"NE", 
+"Week":4 
+},
+{
+"GameKey":"201310404", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"BAL", 
+"Week":4 
+},
+{
+"GameKey":"201310408", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"CIN", 
+"Week":4 
+},
+{
+"GameKey":"201310410", 
+"Date":"09-29-2013 08:25:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"PHI", 
+"Week":4 
+},
+{
+"GameKey":"201310411", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"DET", 
+"AwayTeam":"CHI", 
+"Week":4 
+},
+{
+"GameKey":"201310413", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"SEA", 
+"Week":4 
+},
+{
+"GameKey":"201310415", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"IND", 
+"Week":4 
+},
+{
+"GameKey":"201310416", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"NYG", 
+"Week":4 
+},
+{
+"GameKey":"201310420", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"PIT", 
+"Week":4 
+},
+{
+"GameKey":"201310422", 
+"Date":"10-01-2013 12:30:00",
+"HomeTeam":"NO", 
+"AwayTeam":"MIA", 
+"Week":4 
+},
+{
+"GameKey":"201310425", 
+"Date":"09-29-2013 08:25:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"WAS", 
+"Week":4 
+},
+{
+"GameKey":"201310429", 
+"Date":"09-29-2013 08:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"DAL", 
+"Week":4 
+},
+{
+"GameKey":"201310432", 
+"Date":"09-27-2013 12:25:00",
+"HomeTeam":"STL", 
+"AwayTeam":"SF", 
+"Week":4 
+},
+{
+"GameKey":"201310433", 
+"Date":"09-29-2013 05:00:00",
+"HomeTeam":"TB", 
+"AwayTeam":"ARI", 
+"Week":4 
+},
+{
+"GameKey":"201310434", 
+"Date":"09-29-2013 08:05:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"NYJ", 
+"Week":4 
+},
+{
+"GameKey":"201310501", 
+"Date":"10-06-2013 08:05:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"CAR", 
+"Week":5 
+},
+{
+"GameKey":"201310502", 
+"Date":"10-08-2013 12:30:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"NYJ", 
+"Week":5 
+},
+{
+"GameKey":"201310506", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"NO", 
+"Week":5 
+},
+{
+"GameKey":"201310507", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"NE", 
+"Week":5 
+},
+{
+"GameKey":"201310508", 
+"Date":"10-04-2013 12:25:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"BUF", 
+"Week":5 
+},
+{
+"GameKey":"201310509", 
+"Date":"10-06-2013 08:25:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"DEN", 
+"Week":5 
+},
+{
+"GameKey":"201310512", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"GB", 
+"AwayTeam":"DET", 
+"Week":5 
+},
+{
+"GameKey":"201310514", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"SEA", 
+"Week":5 
+},
+{
+"GameKey":"201310519", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"BAL", 
+"Week":5 
+},
+{
+"GameKey":"201310523", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"PHI", 
+"Week":5 
+},
+{
+"GameKey":"201310525", 
+"Date":"10-07-2013 03:35:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"SD", 
+"Week":5 
+},
+{
+"GameKey":"201310531", 
+"Date":"10-07-2013 12:30:00",
+"HomeTeam":"SF", 
+"AwayTeam":"HOU", 
+"Week":5 
+},
+{
+"GameKey":"201310532", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"STL", 
+"AwayTeam":"JAX", 
+"Week":5 
+},
+{
+"GameKey":"201310534", 
+"Date":"10-06-2013 05:00:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"KC", 
+"Week":5 
+},
+{
+"GameKey":"201310603", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"GB", 
+"Week":6 
+},
+{
+"GameKey":"201310604", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"CIN", 
+"Week":6 
+},
+{
+"GameKey":"201310606", 
+"Date":"10-11-2013 12:25:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"NYG", 
+"Week":6 
+},
+{
+"GameKey":"201310608", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"DET", 
+"Week":6 
+},
+{
+"GameKey":"201310609", 
+"Date":"10-14-2013 12:30:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"WAS", 
+"Week":6 
+},
+{
+"GameKey":"201310610", 
+"Date":"10-13-2013 08:05:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"JAX", 
+"Week":6 
+},
+{
+"GameKey":"201310613", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"STL", 
+"Week":6 
+},
+{
+"GameKey":"201310616", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"OAK", 
+"Week":6 
+},
+{
+"GameKey":"201310620", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"CAR", 
+"Week":6 
+},
+{
+"GameKey":"201310621", 
+"Date":"10-13-2013 08:25:00",
+"HomeTeam":"NE", 
+"AwayTeam":"NO", 
+"Week":6 
+},
+{
+"GameKey":"201310624", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"PIT", 
+"Week":6 
+},
+{
+"GameKey":"201310629", 
+"Date":"10-15-2013 12:30:00",
+"HomeTeam":"SD", 
+"AwayTeam":"IND", 
+"Week":6 
+},
+{
+"GameKey":"201310630", 
+"Date":"10-13-2013 08:05:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"TEN", 
+"Week":6 
+},
+{
+"GameKey":"201310631", 
+"Date":"10-13-2013 08:25:00",
+"HomeTeam":"SF", 
+"AwayTeam":"ARI", 
+"Week":6 
+},
+{
+"GameKey":"201310633", 
+"Date":"10-13-2013 05:00:00",
+"HomeTeam":"TB", 
+"AwayTeam":"PHI", 
+"Week":6 
+},
+{
+"GameKey":"201310701", 
+"Date":"10-18-2013 12:25:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"SEA", 
+"Week":7 
+},
+{
+"GameKey":"201310702", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"TB", 
+"Week":7 
+},
+{
+"GameKey":"201310705", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"STL", 
+"Week":7 
+},
+{
+"GameKey":"201310711", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"DET", 
+"AwayTeam":"CIN", 
+"Week":7 
+},
+{
+"GameKey":"201310712", 
+"Date":"10-20-2013 08:25:00",
+"HomeTeam":"GB", 
+"AwayTeam":"CLE", 
+"Week":7 
+},
+{
+"GameKey":"201310714", 
+"Date":"10-21-2013 12:30:00",
+"HomeTeam":"IND", 
+"AwayTeam":"DEN", 
+"Week":7 
+},
+{
+"GameKey":"201310715", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"SD", 
+"Week":7 
+},
+{
+"GameKey":"201310716", 
+"Date":"10-20-2013 08:25:00",
+"HomeTeam":"KC", 
+"AwayTeam":"HOU", 
+"Week":7 
+},
+{
+"GameKey":"201310719", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"BUF", 
+"Week":7 
+},
+{
+"GameKey":"201310723", 
+"Date":"10-22-2013 12:30:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"MIN", 
+"Week":7 
+},
+{
+"GameKey":"201310724", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"NE", 
+"Week":7 
+},
+{
+"GameKey":"201310726", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"DAL", 
+"Week":7 
+},
+{
+"GameKey":"201310728", 
+"Date":"10-20-2013 08:25:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"BAL", 
+"Week":7 
+},
+{
+"GameKey":"201310734", 
+"Date":"10-20-2013 08:05:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"SF", 
+"Week":7 
+},
+{
+"GameKey":"201310735", 
+"Date":"10-20-2013 05:00:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"CHI", 
+"Week":7 
+},
+{
+"GameKey":"201310801", 
+"Date":"10-27-2013 08:25:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"ATL", 
+"Week":8 
+},
+{
+"GameKey":"201310807", 
+"Date":"10-27-2013 08:05:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"NYJ", 
+"Week":8 
+},
+{
+"GameKey":"201310810", 
+"Date":"10-27-2013 08:25:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"WAS", 
+"Week":8 
+},
+{
+"GameKey":"201310811", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"DET", 
+"AwayTeam":"DAL", 
+"Week":8 
+},
+{
+"GameKey":"201310815", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"SF", 
+"Week":8 
+},
+{
+"GameKey":"201310816", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"CLE", 
+"Week":8 
+},
+{
+"GameKey":"201310820", 
+"Date":"10-28-2013 12:30:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"GB", 
+"Week":8 
+},
+{
+"GameKey":"201310821", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"NE", 
+"AwayTeam":"MIA", 
+"Week":8 
+},
+{
+"GameKey":"201310822", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"NO", 
+"AwayTeam":"BUF", 
+"Week":8 
+},
+{
+"GameKey":"201310825", 
+"Date":"10-27-2013 08:05:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"PIT", 
+"Week":8 
+},
+{
+"GameKey":"201310826", 
+"Date":"10-27-2013 05:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"NYG", 
+"Week":8 
+},
+{
+"GameKey":"201310832", 
+"Date":"10-29-2013 12:30:00",
+"HomeTeam":"STL", 
+"AwayTeam":"SEA", 
+"Week":8 
+},
+{
+"GameKey":"201310833", 
+"Date":"10-25-2013 12:25:00",
+"HomeTeam":"TB", 
+"AwayTeam":"CAR", 
+"Week":8 
+},
+{
+"GameKey":"201310904", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"KC", 
+"Week":9 
+},
+{
+"GameKey":"201310905", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"ATL", 
+"Week":9 
+},
+{
+"GameKey":"201310908", 
+"Date":"11-03-2013 09:25:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"BAL", 
+"Week":9 
+},
+{
+"GameKey":"201310909", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"MIN", 
+"Week":9 
+},
+{
+"GameKey":"201310912", 
+"Date":"11-05-2013 01:30:00",
+"HomeTeam":"GB", 
+"AwayTeam":"CHI", 
+"Week":9 
+},
+{
+"GameKey":"201310913", 
+"Date":"11-04-2013 01:30:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"IND", 
+"Week":9 
+},
+{
+"GameKey":"201310919", 
+"Date":"11-01-2013 12:25:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"CIN", 
+"Week":9 
+},
+{
+"GameKey":"201310921", 
+"Date":"11-03-2013 09:25:00",
+"HomeTeam":"NE", 
+"AwayTeam":"PIT", 
+"Week":9 
+},
+{
+"GameKey":"201310924", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"NO", 
+"Week":9 
+},
+{
+"GameKey":"201310925", 
+"Date":"11-03-2013 09:05:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"PHI", 
+"Week":9 
+},
+{
+"GameKey":"201310930", 
+"Date":"11-03-2013 09:05:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"TB", 
+"Week":9 
+},
+{
+"GameKey":"201310932", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"STL", 
+"AwayTeam":"TEN", 
+"Week":9 
+},
+{
+"GameKey":"201310935", 
+"Date":"11-03-2013 06:00:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"SD", 
+"Week":9 
+},
+{
+"GameKey":"201311001", 
+"Date":"11-10-2013 09:25:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"HOU", 
+"Week":10 
+},
+{
+"GameKey":"201311002", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"SEA", 
+"Week":10 
+},
+{
+"GameKey":"201311003", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"CIN", 
+"Week":10 
+},
+{
+"GameKey":"201311006", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"DET", 
+"Week":10 
+},
+{
+"GameKey":"201311012", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"GB", 
+"AwayTeam":"PHI", 
+"Week":10 
+},
+{
+"GameKey":"201311014", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"STL", 
+"Week":10 
+},
+{
+"GameKey":"201311020", 
+"Date":"11-08-2013 01:25:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"WAS", 
+"Week":10 
+},
+{
+"GameKey":"201311022", 
+"Date":"11-11-2013 01:30:00",
+"HomeTeam":"NO", 
+"AwayTeam":"DAL", 
+"Week":10 
+},
+{
+"GameKey":"201311023", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"OAK", 
+"Week":10 
+},
+{
+"GameKey":"201311028", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"BUF", 
+"Week":10 
+},
+{
+"GameKey":"201311029", 
+"Date":"11-10-2013 09:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"DEN", 
+"Week":10 
+},
+{
+"GameKey":"201311031", 
+"Date":"11-10-2013 09:05:00",
+"HomeTeam":"SF", 
+"AwayTeam":"CAR", 
+"Week":10 
+},
+{
+"GameKey":"201311033", 
+"Date":"11-12-2013 01:30:00",
+"HomeTeam":"TB", 
+"AwayTeam":"MIA", 
+"Week":10 
+},
+{
+"GameKey":"201311034", 
+"Date":"11-10-2013 06:00:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"JAX", 
+"Week":10 
+},
+{
+"GameKey":"201311104", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"NYJ", 
+"Week":11 
+},
+{
+"GameKey":"201311105", 
+"Date":"11-19-2013 01:30:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"NE", 
+"Week":11 
+},
+{
+"GameKey":"201311106", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"BAL", 
+"Week":11 
+},
+{
+"GameKey":"201311107", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"CLE", 
+"Week":11 
+},
+{
+"GameKey":"201311110", 
+"Date":"11-18-2013 01:30:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"KC", 
+"Week":11 
+},
+{
+"GameKey":"201311113", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"OAK", 
+"Week":11 
+},
+{
+"GameKey":"201311115", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"ARI", 
+"Week":11 
+},
+{
+"GameKey":"201311119", 
+"Date":"11-17-2013 09:05:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"SD", 
+"Week":11 
+},
+{
+"GameKey":"201311122", 
+"Date":"11-17-2013 09:25:00",
+"HomeTeam":"NO", 
+"AwayTeam":"SF", 
+"Week":11 
+},
+{
+"GameKey":"201311123", 
+"Date":"11-17-2013 09:25:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"GB", 
+"Week":11 
+},
+{
+"GameKey":"201311126", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"WAS", 
+"Week":11 
+},
+{
+"GameKey":"201311128", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"DET", 
+"Week":11 
+},
+{
+"GameKey":"201311130", 
+"Date":"11-17-2013 09:25:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"MIN", 
+"Week":11 
+},
+{
+"GameKey":"201311133", 
+"Date":"11-17-2013 06:00:00",
+"HomeTeam":"TB", 
+"AwayTeam":"ATL", 
+"Week":11 
+},
+{
+"GameKey":"201311134", 
+"Date":"11-15-2013 01:25:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"IND", 
+"Week":11 
+},
+{
+"GameKey":"201311201", 
+"Date":"11-24-2013 09:05:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"IND", 
+"Week":12 
+},
+{
+"GameKey":"201311202", 
+"Date":"11-22-2013 01:25:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"NO", 
+"Week":12 
+},
+{
+"GameKey":"201311203", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"NYJ", 
+"Week":12 
+},
+{
+"GameKey":"201311208", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"PIT", 
+"Week":12 
+},
+{
+"GameKey":"201311211", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"DET", 
+"AwayTeam":"TB", 
+"Week":12 
+},
+{
+"GameKey":"201311212", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"GB", 
+"AwayTeam":"MIN", 
+"Week":12 
+},
+{
+"GameKey":"201311213", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"JAX", 
+"Week":12 
+},
+{
+"GameKey":"201311216", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"SD", 
+"Week":12 
+},
+{
+"GameKey":"201311219", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"CAR", 
+"Week":12 
+},
+{
+"GameKey":"201311221", 
+"Date":"11-25-2013 01:30:00",
+"HomeTeam":"NE", 
+"AwayTeam":"DEN", 
+"Week":12 
+},
+{
+"GameKey":"201311223", 
+"Date":"11-24-2013 09:25:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"DAL", 
+"Week":12 
+},
+{
+"GameKey":"201311225", 
+"Date":"11-24-2013 09:05:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"TEN", 
+"Week":12 
+},
+{
+"GameKey":"201311232", 
+"Date":"11-24-2013 06:00:00",
+"HomeTeam":"STL", 
+"AwayTeam":"CHI", 
+"Week":12 
+},
+{
+"GameKey":"201311235", 
+"Date":"11-26-2013 01:30:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"SF", 
+"Week":12 
+},
+{
+"GameKey":"201311303", 
+"Date":"11-29-2013 01:30:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"PIT", 
+"Week":13 
+},
+{
+"GameKey":"201311304", 
+"Date":"12-01-2013 09:05:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"ATL", 
+"Week":13 
+},
+{
+"GameKey":"201311305", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"TB", 
+"Week":13 
+},
+{
+"GameKey":"201311308", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"JAX", 
+"Week":13 
+},
+{
+"GameKey":"201311309", 
+"Date":"11-28-2013 09:30:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"OAK", 
+"Week":13 
+},
+{
+"GameKey":"201311311", 
+"Date":"11-28-2013 05:30:00",
+"HomeTeam":"DET", 
+"AwayTeam":"GB", 
+"Week":13 
+},
+{
+"GameKey":"201311313", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"NE", 
+"Week":13 
+},
+{
+"GameKey":"201311314", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"TEN", 
+"Week":13 
+},
+{
+"GameKey":"201311316", 
+"Date":"12-01-2013 09:25:00",
+"HomeTeam":"KC", 
+"AwayTeam":"DEN", 
+"Week":13 
+},
+{
+"GameKey":"201311320", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"CHI", 
+"Week":13 
+},
+{
+"GameKey":"201311324", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"MIA", 
+"Week":13 
+},
+{
+"GameKey":"201311326", 
+"Date":"12-01-2013 06:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"ARI", 
+"Week":13 
+},
+{
+"GameKey":"201311329", 
+"Date":"12-01-2013 09:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"CIN", 
+"Week":13 
+},
+{
+"GameKey":"201311330", 
+"Date":"12-03-2013 01:30:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"NO", 
+"Week":13 
+},
+{
+"GameKey":"201311331", 
+"Date":"12-01-2013 09:05:00",
+"HomeTeam":"SF", 
+"AwayTeam":"STL", 
+"Week":13 
+},
+{
+"GameKey":"201311335", 
+"Date":"12-02-2013 01:30:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"NYG", 
+"Week":13 
+},
+{
+"GameKey":"201311401", 
+"Date":"12-08-2013 09:25:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"STL", 
+"Week":14 
+},
+{
+"GameKey":"201311403", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"MIN", 
+"Week":14 
+},
+{
+"GameKey":"201311406", 
+"Date":"12-10-2013 01:30:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"DAL", 
+"Week":14 
+},
+{
+"GameKey":"201311407", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"IND", 
+"Week":14 
+},
+{
+"GameKey":"201311410", 
+"Date":"12-08-2013 09:05:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"TEN", 
+"Week":14 
+},
+{
+"GameKey":"201311412", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"GB", 
+"AwayTeam":"ATL", 
+"Week":14 
+},
+{
+"GameKey":"201311415", 
+"Date":"12-06-2013 01:25:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"HOU", 
+"Week":14 
+},
+{
+"GameKey":"201311421", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"NE", 
+"AwayTeam":"CLE", 
+"Week":14 
+},
+{
+"GameKey":"201311422", 
+"Date":"12-09-2013 01:30:00",
+"HomeTeam":"NO", 
+"AwayTeam":"CAR", 
+"Week":14 
+},
+{
+"GameKey":"201311424", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"OAK", 
+"Week":14 
+},
+{
+"GameKey":"201311426", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"DET", 
+"Week":14 
+},
+{
+"GameKey":"201311428", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"MIA", 
+"Week":14 
+},
+{
+"GameKey":"201311429", 
+"Date":"12-08-2013 09:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"NYG", 
+"Week":14 
+},
+{
+"GameKey":"201311431", 
+"Date":"12-08-2013 09:25:00",
+"HomeTeam":"SF", 
+"AwayTeam":"SEA", 
+"Week":14 
+},
+{
+"GameKey":"201311433", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"TB", 
+"AwayTeam":"BUF", 
+"Week":14 
+},
+{
+"GameKey":"201311435", 
+"Date":"12-08-2013 06:00:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"KC", 
+"Week":14 
+},
+{
+"GameKey":"201311502", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"WAS", 
+"Week":15 
+},
+{
+"GameKey":"201311505", 
+"Date":"12-15-2013 09:05:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"NYJ", 
+"Week":15 
+},
+{
+"GameKey":"201311508", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"CLE", 
+"AwayTeam":"CHI", 
+"Week":15 
+},
+{
+"GameKey":"201311509", 
+"Date":"12-15-2013 09:25:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"GB", 
+"Week":15 
+},
+{
+"GameKey":"201311510", 
+"Date":"12-13-2013 01:25:00",
+"HomeTeam":"DEN", 
+"AwayTeam":"SD", 
+"Week":15 
+},
+{
+"GameKey":"201311511", 
+"Date":"12-17-2013 01:30:00",
+"HomeTeam":"DET", 
+"AwayTeam":"BAL", 
+"Week":15 
+},
+{
+"GameKey":"201311514", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"HOU", 
+"Week":15 
+},
+{
+"GameKey":"201311515", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"BUF", 
+"Week":15 
+},
+{
+"GameKey":"201311519", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"NE", 
+"Week":15 
+},
+{
+"GameKey":"201311520", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"PHI", 
+"Week":15 
+},
+{
+"GameKey":"201311523", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"SEA", 
+"Week":15 
+},
+{
+"GameKey":"201311525", 
+"Date":"12-15-2013 09:05:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"KC", 
+"Week":15 
+},
+{
+"GameKey":"201311528", 
+"Date":"12-16-2013 01:30:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"CIN", 
+"Week":15 
+},
+{
+"GameKey":"201311532", 
+"Date":"12-15-2013 09:25:00",
+"HomeTeam":"STL", 
+"AwayTeam":"NO", 
+"Week":15 
+},
+{
+"GameKey":"201311533", 
+"Date":"12-15-2013 06:00:00",
+"HomeTeam":"TB", 
+"AwayTeam":"SF", 
+"Week":15 
+},
+{
+"GameKey":"201311534", 
+"Date":"12-15-2013 09:25:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"ARI", 
+"Week":15 
+},
+{
+"GameKey":"201311603", 
+"Date":"12-22-2013 09:25:00",
+"HomeTeam":"BAL", 
+"AwayTeam":"NE", 
+"Week":16 
+},
+{
+"GameKey":"201311604", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"BUF", 
+"AwayTeam":"MIA", 
+"Week":16 
+},
+{
+"GameKey":"201311605", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"CAR", 
+"AwayTeam":"NO", 
+"Week":16 
+},
+{
+"GameKey":"201311607", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"MIN", 
+"Week":16 
+},
+{
+"GameKey":"201311611", 
+"Date":"12-22-2013 09:05:00",
+"HomeTeam":"DET", 
+"AwayTeam":"NYG", 
+"Week":16 
+},
+{
+"GameKey":"201311612", 
+"Date":"12-22-2013 09:25:00",
+"HomeTeam":"GB", 
+"AwayTeam":"PIT", 
+"Week":16 
+},
+{
+"GameKey":"201311613", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"HOU", 
+"AwayTeam":"DEN", 
+"Week":16 
+},
+{
+"GameKey":"201311615", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"JAX", 
+"AwayTeam":"TEN", 
+"Week":16 
+},
+{
+"GameKey":"201311616", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"KC", 
+"AwayTeam":"IND", 
+"Week":16 
+},
+{
+"GameKey":"201311624", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"NYJ", 
+"AwayTeam":"CLE", 
+"Week":16 
+},
+{
+"GameKey":"201311626", 
+"Date":"12-23-2013 01:30:00",
+"HomeTeam":"PHI", 
+"AwayTeam":"CHI", 
+"Week":16 
+},
+{
+"GameKey":"201311629", 
+"Date":"12-22-2013 09:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"OAK", 
+"Week":16 
+},
+{
+"GameKey":"201311630", 
+"Date":"12-22-2013 09:05:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"ARI", 
+"Week":16 
+},
+{
+"GameKey":"201311631", 
+"Date":"12-24-2013 01:30:00",
+"HomeTeam":"SF", 
+"AwayTeam":"ATL", 
+"Week":16 
+},
+{
+"GameKey":"201311632", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"STL", 
+"AwayTeam":"TB", 
+"Week":16 
+},
+{
+"GameKey":"201311635", 
+"Date":"12-22-2013 06:00:00",
+"HomeTeam":"WAS", 
+"AwayTeam":"DAL", 
+"Week":16 
+},
+{
+"GameKey":"201311701", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"ARI", 
+"AwayTeam":"SF", 
+"Week":17 
+},
+{
+"GameKey":"201311702", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"ATL", 
+"AwayTeam":"CAR", 
+"Week":17 
+},
+{
+"GameKey":"201311706", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"CHI", 
+"AwayTeam":"GB", 
+"Week":17 
+},
+{
+"GameKey":"201311707", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"CIN", 
+"AwayTeam":"BAL", 
+"Week":17 
+},
+{
+"GameKey":"201311709", 
+"Date":"12-30-2013 01:30:00",
+"HomeTeam":"DAL", 
+"AwayTeam":"PHI", 
+"Week":17 
+},
+{
+"GameKey":"201311714", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"IND", 
+"AwayTeam":"JAX", 
+"Week":17 
+},
+{
+"GameKey":"201311719", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"MIA", 
+"AwayTeam":"NYJ", 
+"Week":17 
+},
+{
+"GameKey":"201311720", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"MIN", 
+"AwayTeam":"DET", 
+"Week":17 
+},
+{
+"GameKey":"201311721", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"NE", 
+"AwayTeam":"BUF", 
+"Week":17 
+},
+{
+"GameKey":"201311722", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"NO", 
+"AwayTeam":"TB", 
+"Week":17 
+},
+{
+"GameKey":"201311723", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"NYG", 
+"AwayTeam":"WAS", 
+"Week":17 
+},
+{
+"GameKey":"201311725", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"OAK", 
+"AwayTeam":"DEN", 
+"Week":17 
+},
+{
+"GameKey":"201311728", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"PIT", 
+"AwayTeam":"CLE", 
+"Week":17 
+},
+{
+"GameKey":"201311729", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"SD", 
+"AwayTeam":"KC", 
+"Week":17 
+},
+{
+"GameKey":"201311730", 
+"Date":"12-29-2013 09:25:00",
+"HomeTeam":"SEA", 
+"AwayTeam":"STL", 
+"Week":17 
+},
+{
+"GameKey":"201311734", 
+"Date":"12-29-2013 06:00:00",
+"HomeTeam":"TEN", 
+"AwayTeam":"HOU", 
+"Week":17 
+}
+]
