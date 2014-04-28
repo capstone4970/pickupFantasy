@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @test_season.active %>
+</p>
+
+<p>
+  <strong>Created:</strong>
+  <%= @test_season.created %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @test_season.end_date %>
+</p>
+
+<p>
+  <strong>Season:</strong>
+  <%= @test_season.season_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @test_season.name %>
+</p>
+
+<p>
+  <strong>Resource uri:</strong>
+  <%= @test_season.resource_uri %>
+</p>
+
+<p>
+  <strong>Slug:</strong>
+  <%= @test_season.slug %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @test_season.start_date %>
+</p>
+
+<p>
+  <strong>Updated:</strong>
+  <%= @test_season.updated %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @test_season.year %>
+</p>
+
+<%= link_to 'Edit', edit_test_season_path(@test_season) %> |
+<%= link_to 'Back', test_seasons_path %>

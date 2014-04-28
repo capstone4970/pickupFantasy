@@ -1,0 +1,201 @@
+<h1>Listing test_play_stats</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Defense assists</th>
+      <th>Defense forced fumbles</th>
+      <th>Defense misc assists</th>
+      <th>Defense misc tackles</th>
+      <th>Defense passes defensed</th>
+      <th>Defense sack yards</th>
+      <th>Defense sacks</th>
+      <th>Defense sp assists</th>
+      <th>Defense sp tackles</th>
+      <th>Defense stuff yards</th>
+      <th>Defense stuffs</th>
+      <th>Defense tackles</th>
+      <th>Fg attempted</th>
+      <th>Fg blocked</th>
+      <th>Fg distances</th>
+      <th>Fg long</th>
+      <th>Fg made</th>
+      <th>Fumble fumbles</th>
+      <th>Fumble lost fumbles</th>
+      <th>Fumble own recovered</th>
+      <th>Fumble own recovered td</th>
+      <th>Fumble own recovered yards</th>
+      <th>Interception return attempts</th>
+      <th>Interception return long</th>
+      <th>Interception return long td</th>
+      <th>Interception return touchdowns</th>
+      <th>Interception return yards</th>
+      <th>Interceptions</th>
+      <th>Kick return long</th>
+      <th>Kick return long td</th>
+      <th>Kick return touchdowns</th>
+      <th>Kick return yards</th>
+      <th>Kick returns</th>
+      <th>Kickoffs</th>
+      <th>Kickoffs end zone</th>
+      <th>Kickoffs touchback</th>
+      <th>Opponent fumbles recovered</th>
+      <th>Opponent fumbles td</th>
+      <th>Opponent fumbles yards</th>
+      <th>Passing attempts</th>
+      <th>Passing completions</th>
+      <th>Passing interceptions</th>
+      <th>Passing long</th>
+      <th>Passing long td</th>
+      <th>Passing net yards</th>
+      <th>Passing sacked</th>
+      <th>Passing touchdowns</th>
+      <th>Passing yards</th>
+      <th>Passing yards lost</th>
+      <th>Penalty penalties</th>
+      <th>Penalty yards</th>
+      <th>Player  first name</th>
+      <th>Player  global</th>
+      <th>Player  last name</th>
+      <th>Player  number</th>
+      <th>Player  position</th>
+      <th>Punt return long</th>
+      <th>Punt return long td</th>
+      <th>Punt return touchdowns</th>
+      <th>Punt return yards</th>
+      <th>Punt returns</th>
+      <th>Punting inside 20</th>
+      <th>Punting long</th>
+      <th>Punting return yards</th>
+      <th>Punting returns</th>
+      <th>Punting touchbacks</th>
+      <th>Punting yards</th>
+      <th>Punts</th>
+      <th>Punts blocked</th>
+      <th>Receiving long</th>
+      <th>Receiving long td</th>
+      <th>Receiving targets</th>
+      <th>Receiving tds</th>
+      <th>Receiving yards</th>
+      <th>Receptions</th>
+      <th>Return total touchdowns</th>
+      <th>Return total yards</th>
+      <th>Rushing attempts</th>
+      <th>Rushing long</th>
+      <th>Rushing long td</th>
+      <th>Rushing touchdowns</th>
+      <th>Rushing yards</th>
+      <th>Safeties</th>
+      <th>Two point conversions</th>
+      <th>Two point conversions attempted</th>
+      <th>Xp attempts</th>
+      <th>Xp blocked</th>
+      <th>Xp made</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_play_stats.each do |test_play_stat| %>
+      <tr>
+        <td><%= test_play_stat.defense_assists %></td>
+        <td><%= test_play_stat.defense_forced_fumbles %></td>
+        <td><%= test_play_stat.defense_misc_assists %></td>
+        <td><%= test_play_stat.defense_misc_tackles %></td>
+        <td><%= test_play_stat.defense_passes_defensed %></td>
+        <td><%= test_play_stat.defense_sack_yards %></td>
+        <td><%= test_play_stat.defense_sacks %></td>
+        <td><%= test_play_stat.defense_sp_assists %></td>
+        <td><%= test_play_stat.defense_sp_tackles %></td>
+        <td><%= test_play_stat.defense_stuff_yards %></td>
+        <td><%= test_play_stat.defense_stuffs %></td>
+        <td><%= test_play_stat.defense_tackles %></td>
+        <td><%= test_play_stat.fg_attempted %></td>
+        <td><%= test_play_stat.fg_blocked %></td>
+        <td><%= test_play_stat.fg_distances %></td>
+        <td><%= test_play_stat.fg_long %></td>
+        <td><%= test_play_stat.fg_made %></td>
+        <td><%= test_play_stat.fumble_fumbles %></td>
+        <td><%= test_play_stat.fumble_lost_fumbles %></td>
+        <td><%= test_play_stat.fumble_own_recovered %></td>
+        <td><%= test_play_stat.fumble_own_recovered_td %></td>
+        <td><%= test_play_stat.fumble_own_recovered_yards %></td>
+        <td><%= test_play_stat.interception_return_attempts %></td>
+        <td><%= test_play_stat.interception_return_long %></td>
+        <td><%= test_play_stat.interception_return_long_td %></td>
+        <td><%= test_play_stat.interception_return_touchdowns %></td>
+        <td><%= test_play_stat.interception_return_yards %></td>
+        <td><%= test_play_stat.interceptions %></td>
+        <td><%= test_play_stat.kick_return_long %></td>
+        <td><%= test_play_stat.kick_return_long_td %></td>
+        <td><%= test_play_stat.kick_return_touchdowns %></td>
+        <td><%= test_play_stat.kick_return_yards %></td>
+        <td><%= test_play_stat.kick_returns %></td>
+        <td><%= test_play_stat.kickoffs %></td>
+        <td><%= test_play_stat.kickoffs_end_zone %></td>
+        <td><%= test_play_stat.kickoffs_touchback %></td>
+        <td><%= test_play_stat.opponent_fumbles_recovered %></td>
+        <td><%= test_play_stat.opponent_fumbles_td %></td>
+        <td><%= test_play_stat.opponent_fumbles_yards %></td>
+        <td><%= test_play_stat.passing_attempts %></td>
+        <td><%= test_play_stat.passing_completions %></td>
+        <td><%= test_play_stat.passing_interceptions %></td>
+        <td><%= test_play_stat.passing_long %></td>
+        <td><%= test_play_stat.passing_long_td %></td>
+        <td><%= test_play_stat.passing_net_yards %></td>
+        <td><%= test_play_stat.passing_sacked %></td>
+        <td><%= test_play_stat.passing_touchdowns %></td>
+        <td><%= test_play_stat.passing_yards %></td>
+        <td><%= test_play_stat.passing_yards_lost %></td>
+        <td><%= test_play_stat.penalty_penalties %></td>
+        <td><%= test_play_stat.penalty_yards %></td>
+        <td><%= test_play_stat.player__first_name %></td>
+        <td><%= test_play_stat.player__global_id %></td>
+        <td><%= test_play_stat.player__last_name %></td>
+        <td><%= test_play_stat.player__number %></td>
+        <td><%= test_play_stat.player__position %></td>
+        <td><%= test_play_stat.punt_return_long %></td>
+        <td><%= test_play_stat.punt_return_long_td %></td>
+        <td><%= test_play_stat.punt_return_touchdowns %></td>
+        <td><%= test_play_stat.punt_return_yards %></td>
+        <td><%= test_play_stat.punt_returns %></td>
+        <td><%= test_play_stat.punting_inside_20 %></td>
+        <td><%= test_play_stat.punting_long %></td>
+        <td><%= test_play_stat.punting_return_yards %></td>
+        <td><%= test_play_stat.punting_returns %></td>
+        <td><%= test_play_stat.punting_touchbacks %></td>
+        <td><%= test_play_stat.punting_yards %></td>
+        <td><%= test_play_stat.punts %></td>
+        <td><%= test_play_stat.punts_blocked %></td>
+        <td><%= test_play_stat.receiving_long %></td>
+        <td><%= test_play_stat.receiving_long_td %></td>
+        <td><%= test_play_stat.receiving_targets %></td>
+        <td><%= test_play_stat.receiving_tds %></td>
+        <td><%= test_play_stat.receiving_yards %></td>
+        <td><%= test_play_stat.receptions %></td>
+        <td><%= test_play_stat.return_total_touchdowns %></td>
+        <td><%= test_play_stat.return_total_yards %></td>
+        <td><%= test_play_stat.rushing_attempts %></td>
+        <td><%= test_play_stat.rushing_long %></td>
+        <td><%= test_play_stat.rushing_long_td %></td>
+        <td><%= test_play_stat.rushing_touchdowns %></td>
+        <td><%= test_play_stat.rushing_yards %></td>
+        <td><%= test_play_stat.safeties %></td>
+        <td><%= test_play_stat.two_point_conversions %></td>
+        <td><%= test_play_stat.two_point_conversions_attempted %></td>
+        <td><%= test_play_stat.xp_attempts %></td>
+        <td><%= test_play_stat.xp_blocked %></td>
+        <td><%= test_play_stat.xp_made %></td>
+        <td><%= link_to 'Show', test_play_stat %></td>
+        <td><%= link_to 'Edit', edit_test_play_stat_path(test_play_stat) %></td>
+        <td><%= link_to 'Destroy', test_play_stat, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test play stat', new_test_play_stat_path %>

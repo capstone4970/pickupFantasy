@@ -1,0 +1,1 @@
+json.extract! @test_status, :id, :active_state, :distance, :down, :minutes, :quarter, :seconds, :segment_number, :status, :status_id, :team_possession_id, :under_review, :yards_from_goal, :created_at, :updated_at

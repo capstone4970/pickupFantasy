@@ -1,0 +1,45 @@
+<h1>Listing test_seasons</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active</th>
+      <th>Created</th>
+      <th>End date</th>
+      <th>Season</th>
+      <th>Name</th>
+      <th>Resource uri</th>
+      <th>Slug</th>
+      <th>Start date</th>
+      <th>Updated</th>
+      <th>Year</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_seasons.each do |test_season| %>
+      <tr>
+        <td><%= test_season.active %></td>
+        <td><%= test_season.created %></td>
+        <td><%= test_season.end_date %></td>
+        <td><%= test_season.season_id %></td>
+        <td><%= test_season.name %></td>
+        <td><%= test_season.resource_uri %></td>
+        <td><%= test_season.slug %></td>
+        <td><%= test_season.start_date %></td>
+        <td><%= test_season.updated %></td>
+        <td><%= test_season.year %></td>
+        <td><%= link_to 'Show', test_season %></td>
+        <td><%= link_to 'Edit', edit_test_season_path(test_season) %></td>
+        <td><%= link_to 'Destroy', test_season, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test season', new_test_season_path %>

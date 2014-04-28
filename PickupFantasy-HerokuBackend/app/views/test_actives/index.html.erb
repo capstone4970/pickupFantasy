@@ -1,0 +1,49 @@
+<h1>Listing test_actives</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active state</th>
+      <th>Distance</th>
+      <th>Down</th>
+      <th>Minutes</th>
+      <th>Quarter</th>
+      <th>Seconds</th>
+      <th>Segment number</th>
+      <th>Status</th>
+      <th>Status</th>
+      <th>Team possession</th>
+      <th>Under review</th>
+      <th>Yards from goal</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_actives.each do |test_active| %>
+      <tr>
+        <td><%= test_active.active_state %></td>
+        <td><%= test_active.distance %></td>
+        <td><%= test_active.down %></td>
+        <td><%= test_active.minutes %></td>
+        <td><%= test_active.quarter %></td>
+        <td><%= test_active.seconds %></td>
+        <td><%= test_active.segment_number %></td>
+        <td><%= test_active.status %></td>
+        <td><%= test_active.status_id %></td>
+        <td><%= test_active.team_possession_id %></td>
+        <td><%= test_active.under_review %></td>
+        <td><%= test_active.yards_from_goal %></td>
+        <td><%= link_to 'Show', test_active %></td>
+        <td><%= link_to 'Edit', edit_test_active_path(test_active) %></td>
+        <td><%= link_to 'Destroy', test_active, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test active', new_test_active_path %>

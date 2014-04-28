@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  extra: false
+  quarter: 1
+  running_score: 1
+  score: 1
+
+two:
+  extra: false
+  quarter: 1
+  running_score: 1
+  score: 1

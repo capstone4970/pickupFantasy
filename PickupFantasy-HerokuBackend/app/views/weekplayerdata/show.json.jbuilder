@@ -1,0 +1,1 @@
+json.extract! @weekplayerdatum, :id, :NFLPlayerID, :SlotID, :CurrentAuctionValue, :FantasyPoints, :Passyds, :Rushyds, :Rcvyds, :Fumbles, :TDPass, :TwoPointPass, :TwoPointRush, :TDRush, :TDRcv, :TwoPointRcv, :ExtraPoint, :FieldGoal, :created_at, :updated_at

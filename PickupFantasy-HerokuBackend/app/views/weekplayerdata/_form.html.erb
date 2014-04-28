@@ -1,0 +1,81 @@
+<%= form_for(@weekplayerdatum) do |f| %>
+  <% if @weekplayerdatum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@weekplayerdatum.errors.count, "error") %> prohibited this weekplayerdatum from being saved:</h2>
+
+      <ul>
+      <% @weekplayerdatum.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :NFLPlayerID %><br>
+    <%= f.number_field :NFLPlayerID %>
+  </div>
+  <div class="field">
+    <%= f.label :SlotID %><br>
+    <%= f.number_field :SlotID %>
+  </div>
+  <div class="field">
+    <%= f.label :CurrentAuctionValue %><br>
+    <%= f.number_field :CurrentAuctionValue %>
+  </div>
+  <div class="field">
+    <%= f.label :FantasyPoints %><br>
+    <%= f.number_field :FantasyPoints %>
+  </div>
+  <div class="field">
+    <%= f.label :Passyds %><br>
+    <%= f.number_field :Passyds %>
+  </div>
+  <div class="field">
+    <%= f.label :Rushyds %><br>
+    <%= f.number_field :Rushyds %>
+  </div>
+  <div class="field">
+    <%= f.label :Rcvyds %><br>
+    <%= f.number_field :Rcvyds %>
+  </div>
+  <div class="field">
+    <%= f.label :Fumbles %><br>
+    <%= f.number_field :Fumbles %>
+  </div>
+  <div class="field">
+    <%= f.label :TDPass %><br>
+    <%= f.number_field :TDPass %>
+  </div>
+  <div class="field">
+    <%= f.label :TwoPointPass %><br>
+    <%= f.number_field :TwoPointPass %>
+  </div>
+  <div class="field">
+    <%= f.label :TwoPointRush %><br>
+    <%= f.number_field :TwoPointRush %>
+  </div>
+  <div class="field">
+    <%= f.label :TDRush %><br>
+    <%= f.number_field :TDRush %>
+  </div>
+  <div class="field">
+    <%= f.label :TDRcv %><br>
+    <%= f.number_field :TDRcv %>
+  </div>
+  <div class="field">
+    <%= f.label :TwoPointRcv %><br>
+    <%= f.number_field :TwoPointRcv %>
+  </div>
+  <div class="field">
+    <%= f.label :ExtraPoint %><br>
+    <%= f.number_field :ExtraPoint %>
+  </div>
+  <div class="field">
+    <%= f.label :FieldGoal %><br>
+    <%= f.number_field :FieldGoal %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

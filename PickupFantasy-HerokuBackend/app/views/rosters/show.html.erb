@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rosterid:</strong>
+  <%= @roster.rosterID %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @roster.username %>
+</p>
+
+<p>
+  <strong>Leagueid:</strong>
+  <%= @roster.leagueID %>
+</p>
+
+<p>
+  <strong>Qb:</strong>
+  <%= @roster.qb %>
+</p>
+
+<p>
+  <strong>Flex:</strong>
+  <%= @roster.flex %>
+</p>
+
+<p>
+  <strong>K:</strong>
+  <%= @roster.k %>
+</p>
+
+<p>
+  <strong>Wr:</strong>
+  <%= @roster.wr %>
+</p>
+
+<p>
+  <strong>Rb:</strong>
+  <%= @roster.rb %>
+</p>
+
+<%= link_to 'Edit', edit_roster_path(@roster) %> |
+<%= link_to 'Back', rosters_path %>

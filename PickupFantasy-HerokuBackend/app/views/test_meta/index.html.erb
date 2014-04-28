@@ -1,0 +1,35 @@
+<h1>Listing test_meta</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Limit</th>
+      <th>Next</th>
+      <th>Offset</th>
+      <th>Previous</th>
+      <th>Total count</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_meta.each do |test_metum| %>
+      <tr>
+        <td><%= test_metum.limit %></td>
+        <td><%= test_metum.next %></td>
+        <td><%= test_metum.offset %></td>
+        <td><%= test_metum.previous %></td>
+        <td><%= test_metum.total_count %></td>
+        <td><%= link_to 'Show', test_metum %></td>
+        <td><%= link_to 'Edit', edit_test_metum_path(test_metum) %></td>
+        <td><%= link_to 'Destroy', test_metum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test metum', new_test_metum_path %>

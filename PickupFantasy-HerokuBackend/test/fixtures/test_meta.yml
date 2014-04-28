@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  limit: 1
+  next: MyString
+  offset: 1
+  previous: MyString
+  total_count: 1
+
+two:
+  limit: 1
+  next: MyString
+  offset: 1
+  previous: MyString
+  total_count: 1

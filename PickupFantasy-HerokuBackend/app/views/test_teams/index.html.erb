@@ -1,0 +1,83 @@
+<h1>Listing test_teams</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active</th>
+      <th>Alias</th>
+      <th>City</th>
+      <th>Conference</th>
+      <th>Conference</th>
+      <th>Created</th>
+      <th>Division</th>
+      <th>Division</th>
+      <th>Global</th>
+      <th>Team</th>
+      <th>Local team</th>
+      <th>Logo 120x120</th>
+      <th>Logo 30x30</th>
+      <th>Logo 40x40</th>
+      <th>Logo 60x60</th>
+      <th>Name</th>
+      <th>Primary color</th>
+      <th>Record</th>
+      <th>Resource uri</th>
+      <th>Secondary color</th>
+      <th>Slug</th>
+      <th>Stats</th>
+      <th>Total defensive rank</th>
+      <th>Total offensive rank</th>
+      <th>Total passing defense rank</th>
+      <th>Total passing offense rank</th>
+      <th>Total rushing defense rank</th>
+      <th>Total rushing offense rank</th>
+      <th>Updated</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_teams.each do |test_team| %>
+      <tr>
+        <td><%= test_team.active %></td>
+        <td><%= test_team.alias %></td>
+        <td><%= test_team.city %></td>
+        <td><%= test_team.conference %></td>
+        <td><%= test_team.conference_id %></td>
+        <td><%= test_team.created %></td>
+        <td><%= test_team.division %></td>
+        <td><%= test_team.division_id %></td>
+        <td><%= test_team.global_id %></td>
+        <td><%= test_team.team_id %></td>
+        <td><%= test_team.local_team %></td>
+        <td><%= test_team.logo_120x120 %></td>
+        <td><%= test_team.logo_30x30 %></td>
+        <td><%= test_team.logo_40x40 %></td>
+        <td><%= test_team.logo_60x60 %></td>
+        <td><%= test_team.name %></td>
+        <td><%= test_team.primary_color %></td>
+        <td><%= test_team.record %></td>
+        <td><%= test_team.resource_uri %></td>
+        <td><%= test_team.secondary_color %></td>
+        <td><%= test_team.slug %></td>
+        <td><%= test_team.stats_id %></td>
+        <td><%= test_team.total_defensive_rank %></td>
+        <td><%= test_team.total_offensive_rank %></td>
+        <td><%= test_team.total_passing_defense_rank %></td>
+        <td><%= test_team.total_passing_offense_rank %></td>
+        <td><%= test_team.total_rushing_defense_rank %></td>
+        <td><%= test_team.total_rushing_offense_rank %></td>
+        <td><%= test_team.updated %></td>
+        <td><%= link_to 'Show', test_team %></td>
+        <td><%= link_to 'Edit', edit_test_team_path(test_team) %></td>
+        <td><%= link_to 'Destroy', test_team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test team', new_test_team_path %>

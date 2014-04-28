@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Limit:</strong>
+  <%= @test_metum.limit %>
+</p>
+
+<p>
+  <strong>Next:</strong>
+  <%= @test_metum.next %>
+</p>
+
+<p>
+  <strong>Offset:</strong>
+  <%= @test_metum.offset %>
+</p>
+
+<p>
+  <strong>Previous:</strong>
+  <%= @test_metum.previous %>
+</p>
+
+<p>
+  <strong>Total count:</strong>
+  <%= @test_metum.total_count %>
+</p>
+
+<%= link_to 'Edit', edit_test_metum_path(@test_metum) %> |
+<%= link_to 'Back', test_meta_path %>

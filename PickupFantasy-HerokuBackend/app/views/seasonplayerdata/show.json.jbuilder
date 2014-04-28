@@ -1,0 +1,1 @@
+json.extract! @seasonplayerdatum, :id, :NFLPlayerID, :cbsID, :nerdID, :CurrentTeam, :FantasyPosition, :Number, :FirstName, :LastName, :InitialAuctionValue, :CurrentAuctionValue, :projFantasyPoints, :projFantasyPointsMark, :LastPlayedPoints, :created_at, :updated_at

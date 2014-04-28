@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rosterID: 1
+  username: MyString
+  leagueID: 1
+  qb: 1
+  flex: 1
+  k: 1
+  wr: 1
+  rb: 1
+
+two:
+  rosterID: 1
+  username: MyString
+  leagueID: 1
+  qb: 1
+  flex: 1
+  k: 1
+  wr: 1
+  rb: 1

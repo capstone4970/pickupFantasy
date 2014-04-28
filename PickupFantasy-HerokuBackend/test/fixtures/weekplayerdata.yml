@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  NFLPlayerID: 1
+  SlotID: 1
+  CurrentAuctionValue: 1
+  FantasyPoints: 1
+  Passyds: 1
+  Rushyds: 1
+  Rcvyds: 1
+  Fumbles: 1
+  TDPass: 1
+  TwoPointPass: 1
+  TwoPointRush: 1
+  TDRush: 1
+  TDRcv: 1
+  TwoPointRcv: 1
+  ExtraPoint: 1
+  FieldGoal: 1
+
+two:
+  NFLPlayerID: 1
+  SlotID: 1
+  CurrentAuctionValue: 1
+  FantasyPoints: 1
+  Passyds: 1
+  Rushyds: 1
+  Rcvyds: 1
+  Fumbles: 1
+  TDPass: 1
+  TwoPointPass: 1
+  TwoPointRush: 1
+  TDRush: 1
+  TDRcv: 1
+  TwoPointRcv: 1
+  ExtraPoint: 1
+  FieldGoal: 1

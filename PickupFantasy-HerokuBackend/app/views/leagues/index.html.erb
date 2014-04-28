@@ -1,0 +1,47 @@
+<h1>Listing leagues</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Leagueid</th>
+      <th>Name</th>
+      <th>Password</th>
+      <th>Numplayers</th>
+      <th>Member1</th>
+      <th>Member2</th>
+      <th>Member3</th>
+      <th>Member4</th>
+      <th>Member5</th>
+      <th>Member6</th>
+      <th>Gamesofweekidentifier</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @leagues.each do |league| %>
+      <tr>
+        <td><%= league.leagueID %></td>
+        <td><%= league.name %></td>
+        <td><%= league.password %></td>
+        <td><%= league.numPlayers %></td>
+        <td><%= league.member1 %></td>
+        <td><%= league.member2 %></td>
+        <td><%= league.member3 %></td>
+        <td><%= league.member4 %></td>
+        <td><%= league.member5 %></td>
+        <td><%= league.member6 %></td>
+        <td><%= league.gamesOfWeekIdentifier %></td>
+        <td><%= link_to 'Show', league %></td>
+        <td><%= link_to 'Edit', edit_league_path(league) %></td>
+        <td><%= link_to 'Destroy', league, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New League', new_league_path %>

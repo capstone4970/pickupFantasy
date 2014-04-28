@@ -1,0 +1,41 @@
+<h1>Listing rosters</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Rosterid</th>
+      <th>Username</th>
+      <th>Leagueid</th>
+      <th>Qb</th>
+      <th>Flex</th>
+      <th>K</th>
+      <th>Wr</th>
+      <th>Rb</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @rosters.each do |roster| %>
+      <tr>
+        <td><%= roster.rosterID %></td>
+        <td><%= roster.username %></td>
+        <td><%= roster.leagueID %></td>
+        <td><%= roster.qb %></td>
+        <td><%= roster.flex %></td>
+        <td><%= roster.k %></td>
+        <td><%= roster.wr %></td>
+        <td><%= roster.rb %></td>
+        <td><%= link_to 'Show', roster %></td>
+        <td><%= link_to 'Edit', edit_roster_path(roster) %></td>
+        <td><%= link_to 'Destroy', roster, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Roster', new_roster_path %>

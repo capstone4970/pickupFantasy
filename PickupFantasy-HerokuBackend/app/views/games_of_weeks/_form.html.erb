@@ -1,0 +1,41 @@
+<%= form_for(@games_of_week) do |f| %>
+  <% if @games_of_week.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@games_of_week.errors.count, "error") %> prohibited this games_of_week from being saved:</h2>
+
+      <ul>
+      <% @games_of_week.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :gameKey %><br>
+    <%= f.text_field :gameKey %>
+  </div>
+  <div class="field">
+    <%= f.label :gameID %><br>
+    <%= f.text_field :gameID %>
+  </div>
+  <div class="field">
+    <%= f.label :time %><br>
+    <%= f.text_field :time %>
+  </div>
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.text_field :date %>
+  </div>
+  <div class="field">
+    <%= f.label :homeTeam %><br>
+    <%= f.text_field :homeTeam %>
+  </div>
+  <div class="field">
+    <%= f.label :awayTeam %><br>
+    <%= f.text_field :awayTeam %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

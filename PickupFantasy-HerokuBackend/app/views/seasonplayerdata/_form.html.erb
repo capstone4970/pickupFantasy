@@ -1,0 +1,69 @@
+<%= form_for(@seasonplayerdatum) do |f| %>
+  <% if @seasonplayerdatum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@seasonplayerdatum.errors.count, "error") %> prohibited this seasonplayerdatum from being saved:</h2>
+
+      <ul>
+      <% @seasonplayerdatum.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :NFLPlayerID %><br>
+    <%= f.number_field :NFLPlayerID %>
+  </div>
+  <div class="field">
+    <%= f.label :cbsID %><br>
+    <%= f.number_field :cbsID %>
+  </div>
+  <div class="field">
+    <%= f.label :nerdID %><br>
+    <%= f.number_field :nerdID %>
+  </div>
+  <div class="field">
+    <%= f.label :CurrentTeam %><br>
+    <%= f.text_field :CurrentTeam %>
+  </div>
+  <div class="field">
+    <%= f.label :FantasyPosition %><br>
+    <%= f.text_field :FantasyPosition %>
+  </div>
+  <div class="field">
+    <%= f.label :Number %><br>
+    <%= f.number_field :Number %>
+  </div>
+  <div class="field">
+    <%= f.label :FirstName %><br>
+    <%= f.text_field :FirstName %>
+  </div>
+  <div class="field">
+    <%= f.label :LastName %><br>
+    <%= f.text_field :LastName %>
+  </div>
+  <div class="field">
+    <%= f.label :InitialAuctionValue %><br>
+    <%= f.number_field :InitialAuctionValue %>
+  </div>
+  <div class="field">
+    <%= f.label :CurrentAuctionValue %><br>
+    <%= f.number_field :CurrentAuctionValue %>
+  </div>
+  <div class="field">
+    <%= f.label :projFantasyPoints %><br>
+    <%= f.number_field :projFantasyPoints %>
+  </div>
+  <div class="field">
+    <%= f.label :projFantasyPointsMark %><br>
+    <%= f.number_field :projFantasyPointsMark %>
+  </div>
+  <div class="field">
+    <%= f.label :LastPlayedPoints %><br>
+    <%= f.number_field :LastPlayedPoints %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

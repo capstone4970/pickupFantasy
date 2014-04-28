@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active_state: false
+  distance: MyString
+  down: 1
+  minutes: 1
+  quarter: 1
+  seconds: 1
+  segment_number: 1
+  status: MyString
+  status_id: 1
+  team_possession_id: 1
+  under_review: false
+  yards_from_goal: 1.5
+
+two:
+  active_state: false
+  distance: MyString
+  down: 1
+  minutes: 1
+  quarter: 1
+  seconds: 1
+  segment_number: 1
+  status: MyString
+  status_id: 1
+  team_possession_id: 1
+  under_review: false
+  yards_from_goal: 1.5

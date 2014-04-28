@@ -1,0 +1,61 @@
+<%= form_for(@league) do |f| %>
+  <% if @league.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@league.errors.count, "error") %> prohibited this league from being saved:</h2>
+
+      <ul>
+      <% @league.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :leagueID %><br>
+    <%= f.number_field :leagueID %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br>
+    <%= f.text_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :numPlayers %><br>
+    <%= f.number_field :numPlayers %>
+  </div>
+  <div class="field">
+    <%= f.label :member1 %><br>
+    <%= f.text_field :member1 %>
+  </div>
+  <div class="field">
+    <%= f.label :member2 %><br>
+    <%= f.text_field :member2 %>
+  </div>
+  <div class="field">
+    <%= f.label :member3 %><br>
+    <%= f.text_field :member3 %>
+  </div>
+  <div class="field">
+    <%= f.label :member4 %><br>
+    <%= f.text_field :member4 %>
+  </div>
+  <div class="field">
+    <%= f.label :member5 %><br>
+    <%= f.text_field :member5 %>
+  </div>
+  <div class="field">
+    <%= f.label :member6 %><br>
+    <%= f.text_field :member6 %>
+  </div>
+  <div class="field">
+    <%= f.label :gamesOfWeekIdentifier %><br>
+    <%= f.text_field :gamesOfWeekIdentifier %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

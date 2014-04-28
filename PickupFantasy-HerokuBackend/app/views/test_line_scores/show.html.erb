@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Extra:</strong>
+  <%= @test_line_score.extra %>
+</p>
+
+<p>
+  <strong>Quarter:</strong>
+  <%= @test_line_score.quarter %>
+</p>
+
+<p>
+  <strong>Running score:</strong>
+  <%= @test_line_score.running_score %>
+</p>
+
+<p>
+  <strong>Score:</strong>
+  <%= @test_line_score.score %>
+</p>
+
+<%= link_to 'Edit', edit_test_line_score_path(@test_line_score) %> |
+<%= link_to 'Back', test_line_scores_path %>

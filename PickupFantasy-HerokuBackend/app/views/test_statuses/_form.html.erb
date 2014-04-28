@@ -1,0 +1,65 @@
+<%= form_for(@test_status) do |f| %>
+  <% if @test_status.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@test_status.errors.count, "error") %> prohibited this test_status from being saved:</h2>
+
+      <ul>
+      <% @test_status.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :active_state %><br>
+    <%= f.check_box :active_state %>
+  </div>
+  <div class="field">
+    <%= f.label :distance %><br>
+    <%= f.text_field :distance %>
+  </div>
+  <div class="field">
+    <%= f.label :down %><br>
+    <%= f.number_field :down %>
+  </div>
+  <div class="field">
+    <%= f.label :minutes %><br>
+    <%= f.number_field :minutes %>
+  </div>
+  <div class="field">
+    <%= f.label :quarter %><br>
+    <%= f.number_field :quarter %>
+  </div>
+  <div class="field">
+    <%= f.label :seconds %><br>
+    <%= f.number_field :seconds %>
+  </div>
+  <div class="field">
+    <%= f.label :segment_number %><br>
+    <%= f.number_field :segment_number %>
+  </div>
+  <div class="field">
+    <%= f.label :status %><br>
+    <%= f.text_field :status %>
+  </div>
+  <div class="field">
+    <%= f.label :status_id %><br>
+    <%= f.number_field :status_id %>
+  </div>
+  <div class="field">
+    <%= f.label :team_possession_id %><br>
+    <%= f.number_field :team_possession_id %>
+  </div>
+  <div class="field">
+    <%= f.label :under_review %><br>
+    <%= f.check_box :under_review %>
+  </div>
+  <div class="field">
+    <%= f.label :yards_from_goal %><br>
+    <%= f.text_field :yards_from_goal %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

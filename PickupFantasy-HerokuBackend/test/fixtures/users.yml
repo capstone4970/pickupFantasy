@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  userID: 1
+  username: MyString
+  phoneCred: MyString
+  won: 1
+  lost: 1
+  previousGamePlace: 1
+  leagueName: MyString
+  rosterID: 1
+
+two:
+  userID: 1
+  username: MyString
+  phoneCred: MyString
+  won: 1
+  lost: 1
+  previousGamePlace: 1
+  leagueName: MyString
+  rosterID: 1

@@ -1,0 +1,87 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active: false
+  away_team: 1
+  away_team_stats: 1
+  away_total_score: 1
+  created: 2014-02-20 12:05:56
+  final: false
+  finalbox: false
+  game_code: 1
+  game_date_day: 1
+  game_date_epoch_time: 1.5
+  game_date_month: 1
+  game_date_time: 2014-02-20 12:05:56
+  game_date_year: 1
+  game_location: MyString
+  game_progress: MyString
+  game_quarter_time: MyString
+  game_status: MyString
+  game_status_id: 1
+  game_type: MyString
+  game_type_id: 1
+  global_id: 1
+  home_team: 1
+  home_team_stats: 1
+  home_total_score: 1
+  objects_id: 1
+  latest_play: 1
+  latest_plays: 1
+  line_score: 1
+  players: 1
+  possession: MyString
+  resource_uri: MyString
+  scoring_plays: 1
+  season: 1
+  slug: MyString
+  status: 1
+  summary: MyString
+  teams: 1
+  tv_station: MyString
+  updated: 2014-02-20 12:05:56
+  updated_epoch_time: 1.5
+  week: 1
+
+two:
+  active: false
+  away_team: 1
+  away_team_stats: 1
+  away_total_score: 1
+  created: 2014-02-20 12:05:56
+  final: false
+  finalbox: false
+  game_code: 1
+  game_date_day: 1
+  game_date_epoch_time: 1.5
+  game_date_month: 1
+  game_date_time: 2014-02-20 12:05:56
+  game_date_year: 1
+  game_location: MyString
+  game_progress: MyString
+  game_quarter_time: MyString
+  game_status: MyString
+  game_status_id: 1
+  game_type: MyString
+  game_type_id: 1
+  global_id: 1
+  home_team: 1
+  home_team_stats: 1
+  home_total_score: 1
+  objects_id: 1
+  latest_play: 1
+  latest_plays: 1
+  line_score: 1
+  players: 1
+  possession: MyString
+  resource_uri: MyString
+  scoring_plays: 1
+  season: 1
+  slug: MyString
+  status: 1
+  summary: MyString
+  teams: 1
+  tv_station: MyString
+  updated: 2014-02-20 12:05:56
+  updated_epoch_time: 1.5
+  week: 1

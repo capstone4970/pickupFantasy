@@ -1,0 +1,33 @@
+<%= form_for(@test_line_score) do |f| %>
+  <% if @test_line_score.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@test_line_score.errors.count, "error") %> prohibited this test_line_score from being saved:</h2>
+
+      <ul>
+      <% @test_line_score.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :extra %><br>
+    <%= f.check_box :extra %>
+  </div>
+  <div class="field">
+    <%= f.label :quarter %><br>
+    <%= f.number_field :quarter %>
+  </div>
+  <div class="field">
+    <%= f.label :running_score %><br>
+    <%= f.number_field :running_score %>
+  </div>
+  <div class="field">
+    <%= f.label :score %><br>
+    <%= f.number_field :score %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

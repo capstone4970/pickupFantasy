@@ -1,0 +1,57 @@
+<h1>Listing weekplayerdata</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nflplayerid</th>
+      <th>Slotid</th>
+      <th>Currentauctionvalue</th>
+      <th>Fantasypoints</th>
+      <th>Passyds</th>
+      <th>Rushyds</th>
+      <th>Rcvyds</th>
+      <th>Fumbles</th>
+      <th>Tdpass</th>
+      <th>Twopointpass</th>
+      <th>Twopointrush</th>
+      <th>Tdrush</th>
+      <th>Tdrcv</th>
+      <th>Twopointrcv</th>
+      <th>Extrapoint</th>
+      <th>Fieldgoal</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @weekplayerdata.each do |weekplayerdatum| %>
+      <tr>
+        <td><%= weekplayerdatum.NFLPlayerID %></td>
+        <td><%= weekplayerdatum.SlotID %></td>
+        <td><%= weekplayerdatum.CurrentAuctionValue %></td>
+        <td><%= weekplayerdatum.FantasyPoints %></td>
+        <td><%= weekplayerdatum.Passyds %></td>
+        <td><%= weekplayerdatum.Rushyds %></td>
+        <td><%= weekplayerdatum.Rcvyds %></td>
+        <td><%= weekplayerdatum.Fumbles %></td>
+        <td><%= weekplayerdatum.TDPass %></td>
+        <td><%= weekplayerdatum.TwoPointPass %></td>
+        <td><%= weekplayerdatum.TwoPointRush %></td>
+        <td><%= weekplayerdatum.TDRush %></td>
+        <td><%= weekplayerdatum.TDRcv %></td>
+        <td><%= weekplayerdatum.TwoPointRcv %></td>
+        <td><%= weekplayerdatum.ExtraPoint %></td>
+        <td><%= weekplayerdatum.FieldGoal %></td>
+        <td><%= link_to 'Show', weekplayerdatum %></td>
+        <td><%= link_to 'Edit', edit_weekplayerdatum_path(weekplayerdatum) %></td>
+        <td><%= link_to 'Destroy', weekplayerdatum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Weekplayerdatum', new_weekplayerdatum_path %>

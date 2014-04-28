@@ -1,0 +1,2 @@
+module GamesofweeksHelper
+end

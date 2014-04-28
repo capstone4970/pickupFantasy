@@ -1,0 +1,51 @@
+<h1>Listing seasonplayerdata</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nflplayerid</th>
+      <th>Cbsid</th>
+      <th>Nerdid</th>
+      <th>Currentteam</th>
+      <th>Fantasyposition</th>
+      <th>Number</th>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Initialauctionvalue</th>
+      <th>Currentauctionvalue</th>
+      <th>Projfantasypoints</th>
+      <th>Projfantasypointsmark</th>
+      <th>Lastplayedpoints</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @seasonplayerdata.each do |seasonplayerdatum| %>
+      <tr>
+        <td><%= seasonplayerdatum.NFLPlayerID %></td>
+        <td><%= seasonplayerdatum.cbsID %></td>
+        <td><%= seasonplayerdatum.nerdID %></td>
+        <td><%= seasonplayerdatum.CurrentTeam %></td>
+        <td><%= seasonplayerdatum.FantasyPosition %></td>
+        <td><%= seasonplayerdatum.Number %></td>
+        <td><%= seasonplayerdatum.FirstName %></td>
+        <td><%= seasonplayerdatum.LastName %></td>
+        <td><%= seasonplayerdatum.InitialAuctionValue %></td>
+        <td><%= seasonplayerdatum.CurrentAuctionValue %></td>
+        <td><%= seasonplayerdatum.projFantasyPoints %></td>
+        <td><%= seasonplayerdatum.projFantasyPointsMark %></td>
+        <td><%= seasonplayerdatum.LastPlayedPoints %></td>
+        <td><%= link_to 'Show', seasonplayerdatum %></td>
+        <td><%= link_to 'Edit', edit_seasonplayerdatum_path(seasonplayerdatum) %></td>
+        <td><%= link_to 'Destroy', seasonplayerdatum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Seasonplayerdatum', new_seasonplayerdatum_path %>

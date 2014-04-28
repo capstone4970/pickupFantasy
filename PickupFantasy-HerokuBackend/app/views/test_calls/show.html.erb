@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Meta:</strong>
+  <%= @test_call.meta %>
+</p>
+
+<p>
+  <strong>Objects:</strong>
+  <%= @test_call.objects %>
+</p>
+
+<%= link_to 'Edit', edit_test_call_path(@test_call) %> |
+<%= link_to 'Back', test_calls_path %>

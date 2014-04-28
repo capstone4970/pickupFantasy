@@ -1,0 +1,143 @@
+<h1>Listing test_plays</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active</th>
+      <th>Assist1</th>
+      <th>Assist1 global</th>
+      <th>Assist1</th>
+      <th>Assist2</th>
+      <th>Assist2 global</th>
+      <th>Assist</th>
+      <th>Away score after</th>
+      <th>Away score before</th>
+      <th>Continuation</th>
+      <th>Details</th>
+      <th>Direction</th>
+      <th>Distance</th>
+      <th>Down</th>
+      <th>Drive</th>
+      <th>End possession</th>
+      <th>End yardline</th>
+      <th>Game</th>
+      <th>Game time</th>
+      <th>Game time minute</th>
+      <th>Game time second</th>
+      <th>Home score after</th>
+      <th>Home score before</th>
+      <th>Play</th>
+      <th>Pass defensed1</th>
+      <th>Pass defensed1</th>
+      <th>Pat type</th>
+      <th>Pat value</th>
+      <th>Play type</th>
+      <th>Play type</th>
+      <th>Player1 global</th>
+      <th>Player1</th>
+      <th>Player2 global</th>
+      <th>Player2</th>
+      <th>Player3 global</th>
+      <th>Player3</th>
+      <th>Possession</th>
+      <th>Quarter</th>
+      <th>Resource uri</th>
+      <th>Review team</th>
+      <th>Review team global</th>
+      <th>Review team</th>
+      <th>Score description</th>
+      <th>Score type</th>
+      <th>Scoring play</th>
+      <th>Slug</th>
+      <th>Stats</th>
+      <th>Tackle1</th>
+      <th>Tackle1 global</th>
+      <th>Tackle1</th>
+      <th>Tackle2</th>
+      <th>Tackle2 global</th>
+      <th>Tackle2</th>
+      <th>Target</th>
+      <th>Target</th>
+      <th>Time</th>
+      <th>True time</th>
+      <th>Yardline</th>
+      <th>Yards</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_plays.each do |test_play| %>
+      <tr>
+        <td><%= test_play.active %></td>
+        <td><%= test_play.assist1 %></td>
+        <td><%= test_play.assist1_global_id %></td>
+        <td><%= test_play.assist1_id %></td>
+        <td><%= test_play.assist2 %></td>
+        <td><%= test_play.assist2_global_id %></td>
+        <td><%= test_play.assist_id %></td>
+        <td><%= test_play.away_score_after %></td>
+        <td><%= test_play.away_score_before %></td>
+        <td><%= test_play.continuation %></td>
+        <td><%= test_play.details %></td>
+        <td><%= test_play.direction %></td>
+        <td><%= test_play.distance %></td>
+        <td><%= test_play.down %></td>
+        <td><%= test_play.drive_id %></td>
+        <td><%= test_play.end_possession %></td>
+        <td><%= test_play.end_yardline %></td>
+        <td><%= test_play.game %></td>
+        <td><%= test_play.game_time %></td>
+        <td><%= test_play.game_time_minute %></td>
+        <td><%= test_play.game_time_second %></td>
+        <td><%= test_play.home_score_after %></td>
+        <td><%= test_play.home_score_before %></td>
+        <td><%= test_play.play_id %></td>
+        <td><%= test_play.pass_defensed1 %></td>
+        <td><%= test_play.pass_defensed1_id %></td>
+        <td><%= test_play.pat_type %></td>
+        <td><%= test_play.pat_value %></td>
+        <td><%= test_play.play_type %></td>
+        <td><%= test_play.play_type_id %></td>
+        <td><%= test_play.player1_global_id %></td>
+        <td><%= test_play.player1_id %></td>
+        <td><%= test_play.player2_global_id %></td>
+        <td><%= test_play.player2_id %></td>
+        <td><%= test_play.player3_global_id %></td>
+        <td><%= test_play.player3_id %></td>
+        <td><%= test_play.possession %></td>
+        <td><%= test_play.quarter %></td>
+        <td><%= test_play.resource_uri %></td>
+        <td><%= test_play.review_team %></td>
+        <td><%= test_play.review_team_global_id %></td>
+        <td><%= test_play.review_team_id %></td>
+        <td><%= test_play.score_description %></td>
+        <td><%= test_play.score_type %></td>
+        <td><%= test_play.scoring_play %></td>
+        <td><%= test_play.slug %></td>
+        <td><%= test_play.stats_id %></td>
+        <td><%= test_play.tackle1 %></td>
+        <td><%= test_play.tackle1_global_id %></td>
+        <td><%= test_play.tackle1_id %></td>
+        <td><%= test_play.tackle2 %></td>
+        <td><%= test_play.tackle2_global_id %></td>
+        <td><%= test_play.tackle2_id %></td>
+        <td><%= test_play.target %></td>
+        <td><%= test_play.target_id %></td>
+        <td><%= test_play.time %></td>
+        <td><%= test_play.true_time %></td>
+        <td><%= test_play.yardline %></td>
+        <td><%= test_play.yards %></td>
+        <td><%= link_to 'Show', test_play %></td>
+        <td><%= link_to 'Edit', edit_test_play_path(test_play) %></td>
+        <td><%= link_to 'Destroy', test_play, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test play', new_test_play_path %>

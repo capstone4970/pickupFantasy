@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  NFLPlayerID: 1
+  cbsID: 1
+  nerdID: 1
+  CurrentTeam: MyString
+  FantasyPosition: MyString
+  Number: 1
+  FirstName: MyString
+  LastName: MyString
+  InitialAuctionValue: 1
+  CurrentAuctionValue: 1
+  projFantasyPoints: 1
+  projFantasyPointsMark: 1
+  LastPlayedPoints: 1
+
+two:
+  NFLPlayerID: 1
+  cbsID: 1
+  nerdID: 1
+  CurrentTeam: MyString
+  FantasyPosition: MyString
+  Number: 1
+  FirstName: MyString
+  LastName: MyString
+  InitialAuctionValue: 1
+  CurrentAuctionValue: 1
+  projFantasyPoints: 1
+  projFantasyPointsMark: 1
+  LastPlayedPoints: 1

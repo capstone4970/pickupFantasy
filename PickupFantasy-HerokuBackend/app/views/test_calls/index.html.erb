@@ -1,0 +1,29 @@
+<h1>Listing test_calls</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Meta</th>
+      <th>Objects</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_calls.each do |test_call| %>
+      <tr>
+        <td><%= test_call.meta %></td>
+        <td><%= test_call.objects %></td>
+        <td><%= link_to 'Show', test_call %></td>
+        <td><%= link_to 'Edit', edit_test_call_path(test_call) %></td>
+        <td><%= link_to 'Destroy', test_call, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test call', new_test_call_path %>

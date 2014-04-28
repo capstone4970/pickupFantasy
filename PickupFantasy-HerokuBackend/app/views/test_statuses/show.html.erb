@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Active state:</strong>
+  <%= @test_status.active_state %>
+</p>
+
+<p>
+  <strong>Distance:</strong>
+  <%= @test_status.distance %>
+</p>
+
+<p>
+  <strong>Down:</strong>
+  <%= @test_status.down %>
+</p>
+
+<p>
+  <strong>Minutes:</strong>
+  <%= @test_status.minutes %>
+</p>
+
+<p>
+  <strong>Quarter:</strong>
+  <%= @test_status.quarter %>
+</p>
+
+<p>
+  <strong>Seconds:</strong>
+  <%= @test_status.seconds %>
+</p>
+
+<p>
+  <strong>Segment number:</strong>
+  <%= @test_status.segment_number %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @test_status.status %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @test_status.status_id %>
+</p>
+
+<p>
+  <strong>Team possession:</strong>
+  <%= @test_status.team_possession_id %>
+</p>
+
+<p>
+  <strong>Under review:</strong>
+  <%= @test_status.under_review %>
+</p>
+
+<p>
+  <strong>Yards from goal:</strong>
+  <%= @test_status.yards_from_goal %>
+</p>
+
+<%= link_to 'Edit', edit_test_status_path(@test_status) %> |
+<%= link_to 'Back', test_statuses_path %>

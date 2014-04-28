@@ -1,0 +1,133 @@
+<%= form_for(@test_team) do |f| %>
+  <% if @test_team.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@test_team.errors.count, "error") %> prohibited this test_team from being saved:</h2>
+
+      <ul>
+      <% @test_team.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :active %><br>
+    <%= f.check_box :active %>
+  </div>
+  <div class="field">
+    <%= f.label :alias %><br>
+    <%= f.text_field :alias %>
+  </div>
+  <div class="field">
+    <%= f.label :city %><br>
+    <%= f.text_field :city %>
+  </div>
+  <div class="field">
+    <%= f.label :conference %><br>
+    <%= f.text_field :conference %>
+  </div>
+  <div class="field">
+    <%= f.label :conference_id %><br>
+    <%= f.number_field :conference_id %>
+  </div>
+  <div class="field">
+    <%= f.label :created %><br>
+    <%= f.datetime_select :created %>
+  </div>
+  <div class="field">
+    <%= f.label :division %><br>
+    <%= f.text_field :division %>
+  </div>
+  <div class="field">
+    <%= f.label :division_id %><br>
+    <%= f.number_field :division_id %>
+  </div>
+  <div class="field">
+    <%= f.label :global_id %><br>
+    <%= f.number_field :global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :team_id %><br>
+    <%= f.number_field :team_id %>
+  </div>
+  <div class="field">
+    <%= f.label :local_team %><br>
+    <%= f.check_box :local_team %>
+  </div>
+  <div class="field">
+    <%= f.label :logo_120x120 %><br>
+    <%= f.text_field :logo_120x120 %>
+  </div>
+  <div class="field">
+    <%= f.label :logo_30x30 %><br>
+    <%= f.text_field :logo_30x30 %>
+  </div>
+  <div class="field">
+    <%= f.label :logo_40x40 %><br>
+    <%= f.text_field :logo_40x40 %>
+  </div>
+  <div class="field">
+    <%= f.label :logo_60x60 %><br>
+    <%= f.text_field :logo_60x60 %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :primary_color %><br>
+    <%= f.text_field :primary_color %>
+  </div>
+  <div class="field">
+    <%= f.label :record %><br>
+    <%= f.text_field :record %>
+  </div>
+  <div class="field">
+    <%= f.label :resource_uri %><br>
+    <%= f.text_field :resource_uri %>
+  </div>
+  <div class="field">
+    <%= f.label :secondary_color %><br>
+    <%= f.text_field :secondary_color %>
+  </div>
+  <div class="field">
+    <%= f.label :slug %><br>
+    <%= f.text_field :slug %>
+  </div>
+  <div class="field">
+    <%= f.label :stats_id %><br>
+    <%= f.number_field :stats_id %>
+  </div>
+  <div class="field">
+    <%= f.label :total_defensive_rank %><br>
+    <%= f.number_field :total_defensive_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :total_offensive_rank %><br>
+    <%= f.number_field :total_offensive_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :total_passing_defense_rank %><br>
+    <%= f.number_field :total_passing_defense_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :total_passing_offense_rank %><br>
+    <%= f.number_field :total_passing_offense_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :total_rushing_defense_rank %><br>
+    <%= f.number_field :total_rushing_defense_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :total_rushing_offense_rank %><br>
+    <%= f.number_field :total_rushing_offense_rank %>
+  </div>
+  <div class="field">
+    <%= f.label :updated %><br>
+    <%= f.datetime_select :updated %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

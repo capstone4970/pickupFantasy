@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @user.userID %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @user.username %>
+</p>
+
+<p>
+  <strong>Phonecred:</strong>
+  <%= @user.phoneCred %>
+</p>
+
+<p>
+  <strong>Won:</strong>
+  <%= @user.won %>
+</p>
+
+<p>
+  <strong>Lost:</strong>
+  <%= @user.lost %>
+</p>
+
+<p>
+  <strong>Previousgameplace:</strong>
+  <%= @user.previousGamePlace %>
+</p>
+
+<p>
+  <strong>Leaguename:</strong>
+  <%= @user.leagueName %>
+</p>
+
+<p>
+  <strong>Rosterid:</strong>
+  <%= @user.rosterID %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

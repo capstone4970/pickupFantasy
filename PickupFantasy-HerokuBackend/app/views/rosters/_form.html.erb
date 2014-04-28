@@ -1,0 +1,49 @@
+<%= form_for(@roster) do |f| %>
+  <% if @roster.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@roster.errors.count, "error") %> prohibited this roster from being saved:</h2>
+
+      <ul>
+      <% @roster.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :rosterID %><br>
+    <%= f.number_field :rosterID %>
+  </div>
+  <div class="field">
+    <%= f.label :username %><br>
+    <%= f.text_field :username %>
+  </div>
+  <div class="field">
+    <%= f.label :leagueID %><br>
+    <%= f.number_field :leagueID %>
+  </div>
+  <div class="field">
+    <%= f.label :qb %><br>
+    <%= f.number_field :qb %>
+  </div>
+  <div class="field">
+    <%= f.label :flex %><br>
+    <%= f.number_field :flex %>
+  </div>
+  <div class="field">
+    <%= f.label :k %><br>
+    <%= f.number_field :k %>
+  </div>
+  <div class="field">
+    <%= f.label :wr %><br>
+    <%= f.number_field :wr %>
+  </div>
+  <div class="field">
+    <%= f.label :rb %><br>
+    <%= f.number_field :rb %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

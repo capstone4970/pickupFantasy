@@ -1,0 +1,107 @@
+<h1>Listing test_objects</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Active</th>
+      <th>Away team</th>
+      <th>Away team stats</th>
+      <th>Away total score</th>
+      <th>Created</th>
+      <th>Final</th>
+      <th>Finalbox</th>
+      <th>Game code</th>
+      <th>Game date day</th>
+      <th>Game date epoch time</th>
+      <th>Game date month</th>
+      <th>Game date time</th>
+      <th>Game date year</th>
+      <th>Game location</th>
+      <th>Game progress</th>
+      <th>Game quarter time</th>
+      <th>Game status</th>
+      <th>Game status</th>
+      <th>Game type</th>
+      <th>Game type</th>
+      <th>Global</th>
+      <th>Home team</th>
+      <th>Home team stats</th>
+      <th>Home total score</th>
+      <th>Objects</th>
+      <th>Latest play</th>
+      <th>Latest plays</th>
+      <th>Line score</th>
+      <th>Players</th>
+      <th>Possession</th>
+      <th>Resource uri</th>
+      <th>Scoring plays</th>
+      <th>Season</th>
+      <th>Slug</th>
+      <th>Status</th>
+      <th>Summary</th>
+      <th>Teams</th>
+      <th>Tv station</th>
+      <th>Updated</th>
+      <th>Updated epoch time</th>
+      <th>Week</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_objects.each do |test_object| %>
+      <tr>
+        <td><%= test_object.active %></td>
+        <td><%= test_object.away_team %></td>
+        <td><%= test_object.away_team_stats %></td>
+        <td><%= test_object.away_total_score %></td>
+        <td><%= test_object.created %></td>
+        <td><%= test_object.final %></td>
+        <td><%= test_object.finalbox %></td>
+        <td><%= test_object.game_code %></td>
+        <td><%= test_object.game_date_day %></td>
+        <td><%= test_object.game_date_epoch_time %></td>
+        <td><%= test_object.game_date_month %></td>
+        <td><%= test_object.game_date_time %></td>
+        <td><%= test_object.game_date_year %></td>
+        <td><%= test_object.game_location %></td>
+        <td><%= test_object.game_progress %></td>
+        <td><%= test_object.game_quarter_time %></td>
+        <td><%= test_object.game_status %></td>
+        <td><%= test_object.game_status_id %></td>
+        <td><%= test_object.game_type %></td>
+        <td><%= test_object.game_type_id %></td>
+        <td><%= test_object.global_id %></td>
+        <td><%= test_object.home_team %></td>
+        <td><%= test_object.home_team_stats %></td>
+        <td><%= test_object.home_total_score %></td>
+        <td><%= test_object.objects_id %></td>
+        <td><%= test_object.latest_play %></td>
+        <td><%= test_object.latest_plays %></td>
+        <td><%= test_object.line_score %></td>
+        <td><%= test_object.players %></td>
+        <td><%= test_object.possession %></td>
+        <td><%= test_object.resource_uri %></td>
+        <td><%= test_object.scoring_plays %></td>
+        <td><%= test_object.season %></td>
+        <td><%= test_object.slug %></td>
+        <td><%= test_object.status %></td>
+        <td><%= test_object.summary %></td>
+        <td><%= test_object.teams %></td>
+        <td><%= test_object.tv_station %></td>
+        <td><%= test_object.updated %></td>
+        <td><%= test_object.updated_epoch_time %></td>
+        <td><%= test_object.week %></td>
+        <td><%= link_to 'Show', test_object %></td>
+        <td><%= link_to 'Edit', edit_test_object_path(test_object) %></td>
+        <td><%= link_to 'Destroy', test_object, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test object', new_test_object_path %>

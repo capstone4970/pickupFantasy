@@ -1,0 +1,273 @@
+<%= form_for(@test_scoring_play) do |f| %>
+  <% if @test_scoring_play.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@test_scoring_play.errors.count, "error") %> prohibited this test_scoring_play from being saved:</h2>
+
+      <ul>
+      <% @test_scoring_play.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :_game_cache %><br>
+    <%= f.text_field :_game_cache %>
+  </div>
+  <div class="field">
+    <%= f.label :_state %><br>
+    <%= f.text_field :_state %>
+  </div>
+  <div class="field">
+    <%= f.label :active %><br>
+    <%= f.check_box :active %>
+  </div>
+  <div class="field">
+    <%= f.label :assist1 %><br>
+    <%= f.number_field :assist1 %>
+  </div>
+  <div class="field">
+    <%= f.label :assist1_global_id %><br>
+    <%= f.number_field :assist1_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :assist1_id %><br>
+    <%= f.number_field :assist1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :assist2 %><br>
+    <%= f.number_field :assist2 %>
+  </div>
+  <div class="field">
+    <%= f.label :assist2_global_id %><br>
+    <%= f.number_field :assist2_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :assist2_id %><br>
+    <%= f.number_field :assist2_id %>
+  </div>
+  <div class="field">
+    <%= f.label :away_score_after %><br>
+    <%= f.number_field :away_score_after %>
+  </div>
+  <div class="field">
+    <%= f.label :away_score_before %><br>
+    <%= f.number_field :away_score_before %>
+  </div>
+  <div class="field">
+    <%= f.label :continuation %><br>
+    <%= f.check_box :continuation %>
+  </div>
+  <div class="field">
+    <%= f.label :created %><br>
+    <%= f.datetime_select :created %>
+  </div>
+  <div class="field">
+    <%= f.label :details %><br>
+    <%= f.text_field :details %>
+  </div>
+  <div class="field">
+    <%= f.label :direction %><br>
+    <%= f.number_field :direction %>
+  </div>
+  <div class="field">
+    <%= f.label :distance %><br>
+    <%= f.number_field :distance %>
+  </div>
+  <div class="field">
+    <%= f.label :down %><br>
+    <%= f.number_field :down %>
+  </div>
+  <div class="field">
+    <%= f.label :drive_id %><br>
+    <%= f.number_field :drive_id %>
+  </div>
+  <div class="field">
+    <%= f.label :end_possession %><br>
+    <%= f.text_field :end_possession %>
+  </div>
+  <div class="field">
+    <%= f.label :end_yardline %><br>
+    <%= f.text_field :end_yardline %>
+  </div>
+  <div class="field">
+    <%= f.label :game_id %><br>
+    <%= f.number_field :game_id %>
+  </div>
+  <div class="field">
+    <%= f.label :game_time %><br>
+    <%= f.number_field :game_time %>
+  </div>
+  <div class="field">
+    <%= f.label :game_time_minute %><br>
+    <%= f.number_field :game_time_minute %>
+  </div>
+  <div class="field">
+    <%= f.label :game_time_second %><br>
+    <%= f.number_field :game_time_second %>
+  </div>
+  <div class="field">
+    <%= f.label :home_score_after %><br>
+    <%= f.number_field :home_score_after %>
+  </div>
+  <div class="field">
+    <%= f.label :home_score_before %><br>
+    <%= f.number_field :home_score_before %>
+  </div>
+  <div class="field">
+    <%= f.label :scoring_play_id %><br>
+    <%= f.number_field :scoring_play_id %>
+  </div>
+  <div class="field">
+    <%= f.label :pass_defensed1 %><br>
+    <%= f.number_field :pass_defensed1 %>
+  </div>
+  <div class="field">
+    <%= f.label :pass_defensed1_id %><br>
+    <%= f.number_field :pass_defensed1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :pat_type %><br>
+    <%= f.number_field :pat_type %>
+  </div>
+  <div class="field">
+    <%= f.label :pat_value %><br>
+    <%= f.number_field :pat_value %>
+  </div>
+  <div class="field">
+    <%= f.label :play_type %><br>
+    <%= f.text_field :play_type %>
+  </div>
+  <div class="field">
+    <%= f.label :play_type_id %><br>
+    <%= f.number_field :play_type_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player1_global_id %><br>
+    <%= f.number_field :player1_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player1_id %><br>
+    <%= f.number_field :player1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player2_global_id %><br>
+    <%= f.number_field :player2_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player2_id %><br>
+    <%= f.number_field :player2_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player3_global_id %><br>
+    <%= f.number_field :player3_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :player3_id %><br>
+    <%= f.number_field :player3_id %>
+  </div>
+  <div class="field">
+    <%= f.label :possession %><br>
+    <%= f.text_field :possession %>
+  </div>
+  <div class="field">
+    <%= f.label :quarter %><br>
+    <%= f.number_field :quarter %>
+  </div>
+  <div class="field">
+    <%= f.label :review_team %><br>
+    <%= f.number_field :review_team %>
+  </div>
+  <div class="field">
+    <%= f.label :review_team_global_id %><br>
+    <%= f.number_field :review_team_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :review_team_id %><br>
+    <%= f.number_field :review_team_id %>
+  </div>
+  <div class="field">
+    <%= f.label :score_description %><br>
+    <%= f.number_field :score_description %>
+  </div>
+  <div class="field">
+    <%= f.label :score_type %><br>
+    <%= f.text_field :score_type %>
+  </div>
+  <div class="field">
+    <%= f.label :scoring_play %><br>
+    <%= f.check_box :scoring_play %>
+  </div>
+  <div class="field">
+    <%= f.label :slug %><br>
+    <%= f.text_field :slug %>
+  </div>
+  <div class="field">
+    <%= f.label :stats_id %><br>
+    <%= f.text_field :stats_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle1 %><br>
+    <%= f.number_field :tackle1 %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle1_global_id %><br>
+    <%= f.number_field :tackle1_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle1_id %><br>
+    <%= f.number_field :tackle1_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle2 %><br>
+    <%= f.number_field :tackle2 %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle2_global_id %><br>
+    <%= f.number_field :tackle2_global_id %>
+  </div>
+  <div class="field">
+    <%= f.label :tackle2_id %><br>
+    <%= f.number_field :tackle2_id %>
+  </div>
+  <div class="field">
+    <%= f.label :target %><br>
+    <%= f.number_field :target %>
+  </div>
+  <div class="field">
+    <%= f.label :target_id %><br>
+    <%= f.number_field :target_id %>
+  </div>
+  <div class="field">
+    <%= f.label :time %><br>
+    <%= f.text_field :time %>
+  </div>
+  <div class="field">
+    <%= f.label :true_away_score_after %><br>
+    <%= f.number_field :true_away_score_after %>
+  </div>
+  <div class="field">
+    <%= f.label :true_details %><br>
+    <%= f.text_field :true_details %>
+  </div>
+  <div class="field">
+    <%= f.label :true_home_score_after %><br>
+    <%= f.number_field :true_home_score_after %>
+  </div>
+  <div class="field">
+    <%= f.label :updated %><br>
+    <%= f.datetime_select :updated %>
+  </div>
+  <div class="field">
+    <%= f.label :yardline %><br>
+    <%= f.text_field :yardline %>
+  </div>
+  <div class="field">
+    <%= f.label :yards %><br>
+    <%= f.number_field :yards %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

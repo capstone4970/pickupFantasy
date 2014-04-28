@@ -1,0 +1,33 @@
+<h1>Listing test_line_scores</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Extra</th>
+      <th>Quarter</th>
+      <th>Running score</th>
+      <th>Score</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @test_line_scores.each do |test_line_score| %>
+      <tr>
+        <td><%= test_line_score.extra %></td>
+        <td><%= test_line_score.quarter %></td>
+        <td><%= test_line_score.running_score %></td>
+        <td><%= test_line_score.score %></td>
+        <td><%= link_to 'Show', test_line_score %></td>
+        <td><%= link_to 'Edit', edit_test_line_score_path(test_line_score) %></td>
+        <td><%= link_to 'Destroy', test_line_score, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Test line score', new_test_line_score_path %>

@@ -1,0 +1,37 @@
+<h1>Listing games_of_weeks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Gamekey</th>
+      <th>Gameid</th>
+      <th>Time</th>
+      <th>Date</th>
+      <th>Hometeam</th>
+      <th>Awayteam</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @games_of_weeks.each do |games_of_week| %>
+      <tr>
+        <td><%= games_of_week.gameKey %></td>
+        <td><%= games_of_week.gameID %></td>
+        <td><%= games_of_week.time %></td>
+        <td><%= games_of_week.date %></td>
+        <td><%= games_of_week.homeTeam %></td>
+        <td><%= games_of_week.awayTeam %></td>
+        <td><%= link_to 'Show', games_of_week %></td>
+        <td><%= link_to 'Edit', edit_games_of_week_path(games_of_week) %></td>
+        <td><%= link_to 'Destroy', games_of_week, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Games of week', new_games_of_week_path %>
